@@ -1,0 +1,18 @@
+[general]
+name=SplashScreen
+qgisMinimumVersion=2.0
+description=Fake SplashScreen for QGIS. With this plugin, you can modify the QGIS splash without having to compile the core.
+version=1.0
+author=Francisco Raga
+email=franka1986@gmail.com
+
+tags= fake,customization,joke,splash,configuration,themes
+
+homepage=https://github.com/All4Gis/fake_Qgis_Splash
+tracker=https://github.com/All4Gis/fake_Qgis_Splash/issues
+repository=https://github.com/All4Gis/fake_Qgis_Splash
+
+icon=images/icon.png
+experimental=True
+deprecated=False
+
