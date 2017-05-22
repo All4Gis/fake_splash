@@ -1,4 +1,4 @@
-##Fake Splash Screen for QGIS	
+## Fake Splash Screen for QGIS	
 
 With this plugin, you can modify the QGIS splash without having to compile the core.
 The current image and icon are a simple joke, but you can change them and compile the plugin with your own image and icon like, for example, your company logo.
@@ -42,7 +42,7 @@ GOTO END
 ::pause
 ```
 
-##Notes
+## Notes
 
 If after uninstalling the plugin, the qgis splash is not shown, open the python console and execute the following command:
 
@@ -56,11 +56,11 @@ QSettings().setValue("/qgis/hideSplash", False)
 - Restore Qgis to the original state if the plugin is uninstalled or deactivated (icon, splash and title)
 
 ## Donations
-Want to buy me a beer (or gadget)? Please use Paypal button on the project page, [Paypal.me](https://www.paypal.me/all4gis), or contact me directly.
+Want to buy me a beer (or gadget)? Please use Paypal button on the project page, [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/all4gis) , or contact me directly.
 
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)]
-(https://www.paypal.com/cgi-bin/webscr?button=donate&business=5329N9XX4WQHY&item_name=FakeSplash+Plugin&quantity=&amount=&currency_code=EUR&shipping=&tax=&notify_url=&cmd=_donations&bn=JavaScriptButton_donate&env=www)
-
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?button=donate&business=5329N9XX4WQHY&item_name=FakeSplash+Plugin&quantity=&amount=&currency_code=EUR&shipping=&tax=&notify_url=&cmd=_donations&bn=JavaScriptButton_donate&env=www)
+ 
 If this plugin is useful for you, consider to donate to the author.
 
-[© All4gis 2017]
+
+[Â© All4gis 2017]
