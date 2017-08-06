@@ -26,7 +26,6 @@ try:
 except:
     None
 
-# Import the PyQt and QGIS libraries
 from PyQt4 import QtCore, QtGui
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
@@ -38,8 +37,6 @@ from qgis.gui import *
  
 import gui.generated.resources_rc
 import qgis.utils
-#from qgis.utils import loadPlugin,startPlugin,available_plugins,isPluginLoaded,active_plugins 
- 
  
 class SplashScreen():
     def __init__(self, iface):
@@ -62,8 +59,6 @@ class SplashScreen():
         QtGui.qApp.processEvents()
 
     def initGui(self):
-
-        #FakePlugin = qgis.utils.plugins["0_SplashScreen"]
         QSettings().setValue("/qgis/hideSplash", True)
         QtGui.qApp.processEvents()
 
